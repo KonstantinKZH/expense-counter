@@ -1,0 +1,16 @@
+.page{
+    font-family: 'Inter', sans-serif;
+}
+
+button{
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    padding-top: 67px;
+    margin-bottom: 41px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}

@@ -1,0 +1,50 @@
+.expense-calculator__count{
+    position: absolute;
+    top: 346px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 50;
+}
+
+.limit{
+    margin-bottom: 13px;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.limit__text{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.limit__value{
+    font-weight: 400;
+}
+
+.limit__btn{
+    display: block;
+
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    border: none;
+    background-image: url('../../resources/icons/change_limit.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all .3s ease;
+}
+
+.limit__btn:active{
+    transform: scale(0.95);
+}
+
+.unit-measurement{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}

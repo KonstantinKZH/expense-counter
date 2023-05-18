@@ -1,0 +1,17 @@
+.reset-btn{
+    display: block;
+    width: 484px;
+    height: 58px;
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    transition: all .4s linear;
+}
+
+.reset-btn:active{
+    transform: scale(0.9);
+}

@@ -1,0 +1,83 @@
+.spending-menu{
+    position: relative;
+    margin-bottom: 65px;
+    width: 484px;
+    border: 1px solid #000;
+    z-index: 100;
+}
+
+.spending-menu__content{
+    position: relative;
+}
+
+.spending-menu__ol{
+    background-color: #ffffff;
+    position: relative;
+    z-index: 200px;
+}
+
+.spending-menu-li{
+    padding: 10px 0; /* Увеличиваем высоту выподающего меню */
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.spending-menu__btn{
+    display: block;
+    width: 16px;
+    height: 10px;
+    border: none;
+    cursor: pointer;
+
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+
+.icon-arrow_down{
+    background-image: url('../../resources/icons/v-down.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    background-color: #ffffff;
+}
+
+.icon-arrow_up{
+    background-image: url('../../resources/icons/v-up.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    background-color: #ffffff;
+}
+
+
+.spending-menu__btn:active{
+    transform: scale(0.9);
+}
+
+/* Класы для показа и скрытия пунктов меню */
+
+.spending-menu-li__show{
+    display: block;
+}
+
+.spending-menu-li__hide{
+    display: none;
+}
+
+
+.active{
+    content: "";
+}
+
+.placedTop{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}

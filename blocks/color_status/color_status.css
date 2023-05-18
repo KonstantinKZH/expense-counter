@@ -1,0 +1,18 @@
+.sum-status{
+    margin-bottom: 112px;
+}
+
+.sum-status p{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.status{
+    color: green;
+}
+
+.status-red{
+    color: red;
+}
