@@ -10,6 +10,7 @@
     background-color: rgba(0, 0, 0, 0.4);
     opacity: 0;
     visibility: hidden;
+    z-index: 900;
 }
 
 .popup_open{
