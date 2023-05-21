@@ -15,18 +15,16 @@
         <div class="container">
             <div class="expense-calculator">
                 <h1 class="expense-calculator__header">Учёт расходов</h1>
-
                 <!-- Ввод расходов -->
                 <div class="entering-expenses">
                     <input type="number" class="js-expenses-input expenses-input">
                     <button class="js-expenses-btn expenses-btn">Добавить</button>
                 </div>
-
                 <!-- Выпадающее меню -->
                 <div id="pullDownMenu" class="js-spending-menu spending-menu">
-                    <div class="js-spending-menu__content spending-menu__content">
+                    <div class="spending-menu__content">
                         <ol class="js-spending-menu__ol spending-menu__ol">
-                            <li class="js-spending-menu-li spending-menu-li spending-menu-li__show active">Транспорт</li>
+                            <li class="js-spending-menu-li spending-menu-li active">Транспорт</li>
                             <li class="js-spending-menu-li spending-menu-li">Кафе и рестораны</li>
                             <li class="js-spending-menu-li spending-menu-li">Аптека</li>
                             <li class="js-spending-menu-li spending-menu-li">Развлечения</li>
@@ -34,36 +32,29 @@
                         <button class="js-spending-menu__btn spending-menu__btn icon-arrow_down"></button>
                     </div>
                 </div>
-
                 <!--  -->
                 <div class="expense-calculator__count">
                     <div class="expense-calculator__count-inner">
                         <!-- Лимит -->
                         <div class="limit">
-                            <p class="limit__text">Лимит: <span class="js-limit__value limit__value">10000</span><span class="js-unit-measurement unit-measurement"></span></p>
+                            <p class="limit__text">Лимит: <span class="js-limit__value limit__value">10000</span><span class="js-unit-measurement unit-measurement"> руб.</span></p>
                             <button class="js-limit__btn limit__btn"></button>
                         </div>
-
                         <p class="total">Всего: <span class="js-sum sum"></span></p>
-
                         <!-- Сумма трат и статус -->
                         <div class="sum-status">
                             <p>Статус: <span class="js-status status">всё хорошо</span><span
                                     class="js-minus-amount minus-amount"></span></p>
                         </div>
 
-                        <button class="js-reset-btn reset-btn">Сбросить расходы</button>
+                        <button class="js-reset-btn reset-btn">Сбросить затраты</button>
                     </div>
-
                     <!-- История расходов -->
                     <div class="expense-calculator__history">
                         <h2 class="expense-calculator__history-header">История расходов</h2>
                         <div class="js-history history"></div>
                     </div>
                 </div>
-
-
-
                 <!-- Popup -->
                 <div class="js-popup popup">
                     <div class="js-popup__content popup__content">
@@ -71,22 +62,25 @@
                             <p class="popup__content-title">Новый лимит</p>
 
                             <div class="popup__btn-input">
-                                <input type="number" class="popup__content-input">
-                                <button class="popup__content-btn">Задать лимит</button>
+                                <input type="number" class="js-popup__content-input popup__content-input">
+                                <button class="js-popup__content-btn popup__content-btn">Задать лимит</button>
                             </div>
                             <button class="js-popup__close-btn popup__close-btn"></button>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
+
     <script src="scripts/index.js"></script>
-    <script src="scripts/button-reset.js"></script>
-    <script src="scripts/spending-menu.js"></script>
+    <script src="scripts/output-expenses.js"></script>
     <script src="scripts/popup.js"></script>
+    <script src="scripts/record-expenses.js"></script>
+    <script src="scripts/spending-menu.js"></script>
     <script src="scripts/status.js"></script>
+    <script src="scripts/sum-expenses.js"></script>
+    
 </body>
 
 </html>

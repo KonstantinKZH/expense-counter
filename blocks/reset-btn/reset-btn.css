@@ -1,4 +1,5 @@
 .reset-btn{
+    margin-bottom: 30px;
     display: block;
     width: 484px;
     height: 58px;
@@ -14,4 +15,18 @@
 
 .reset-btn:active{
     transform: scale(0.9);
+}
+
+.reset-general-btn{
+    display: block;
+    width: 484px;
+    height: 58px;
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #FFA500;
+    transition: all .4s linear;
 }

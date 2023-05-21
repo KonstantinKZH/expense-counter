@@ -1,15 +1,15 @@
-@import "../blocks/container/container.css";
-@import "../blocks/expenses-calculate/expenses-calculate.css";
-@import "../blocks/entering-expenses/entering-expenses.css";
-@import "../blocks/color_status/color_status.css";
-@import "../blocks/limit/limit.css";
 @import "../blocks/body/body.css";
-@import "../blocks/popup/popup.css";
+@import "../blocks/color_status/color_status.css";
+@import "../blocks/container/container.css";
 @import "../blocks/drop-down-menu/drop-down-menu.css";
+@import "../blocks/entering-expenses/entering-expenses.css";
+@import "../blocks/expenses-calculate/expenses-calculate.css";
 @import "../blocks/history/history.css";
-@import "../blocks/sum-expenses/sum-expenses.css";
+@import "../blocks/limit/limit.css";
+@import "../blocks/minus-amount/minus-amount.css";
+@import "../blocks/popup/popup.css";
 @import "../blocks/reset-btn/reset-btn.css";
-
+@import "../blocks/sum-expenses/sum-expenses.css";
 
 @import "../vendor/reset.css";
 @import "../vendor/fonts.css";

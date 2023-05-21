@@ -4,6 +4,7 @@
     padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
+    column-gap: 60px;
     z-index: 50;
 }
 
